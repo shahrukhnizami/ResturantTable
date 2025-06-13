@@ -12,7 +12,7 @@ import axios from 'axios';
 import { BASE_URL, config } from '../../context';
 import { useAuth } from '../../context/AuthContext';
 import { Cctv, MapPin, Phone, Trash2 } from 'lucide-react';
-import BranchCards from '../branchCards';
+import BranchCards from "../../components/BranchCards"
 import { useColors } from '../../context/ColorContext';
 
 const RestaurantDetail = ({ children }) => {
