@@ -277,14 +277,15 @@ const Users = () => {
           </FormControl>
 
           <Button
-            className="rounded-xl cursor-pointer p-2 text-white"
+            className="rounded-xl cursor-pointer p-2 text-white mx-2"
             variant="contained"
             onClick={handleAddUser}
             sx={{ mt: 2 }}
             disabled={loading} // Disable button when loading
           >
-            {loading ? <CircularProgress size={24} color="inherit" /> : "Add Admin"}
+            {loading ? <CircularProgress size={24} color="inherit" /> : "Save admin"}
           </Button>
+          <Button variant="contained" className="rounded-xl cursor-pointer p-2 text-white" onClick={toggleDrawer(false)}>Cancel</Button>
         </Box>
       </Drawer>
 

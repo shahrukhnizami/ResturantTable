@@ -261,7 +261,7 @@ const Users = () => {
           </FormControl>
 
           <Button variant="contained" className={'cursor-pointer'} onClick={handleAddUser} sx={{ mt: 2 }}>
-            Add Admin
+            Save
           </Button>
         </Box>
       </Drawer>
